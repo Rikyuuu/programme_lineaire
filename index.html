@@ -4,39 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Programmation Linéaire</title>
 </head>
 <body>
-    <h1>Programmation Linéaire</h1>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                        <h1>Fonctionnement du programme</h1>
+                        <p>Le premier membre correspond à x, y, et z, le second membre correspond au résultat, il faut remplir les 3 contraintes.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-body">
+                <h3>Contrainte n°1</h3>
+                <input type="number" placeholder="Entrer un nombre (x)" id="valuePremierMembreX_contrainte1" class="form-control">
+                <input type="number" placeholder="Entrer un nombre (y)" id="valuePremierMembreY_contrainte1" class="form-control">
+                <input type="number" placeholder="Entrer un nombre (z)" id="valuePremierMembreZ_contrainte1" class="form-control">
+                <input type="number" placeholder="Entrer un nombre" id="valueSecondMembre_contrainte1" class="form-control">
+            </div>
 
-    <h2>Fonctionnement du programme</h2>
-    <p>Le premier membre correspond à x, y, et z, le second membre correspond au résultat, il faut remplir les 3 contraintes.</p>
-    <div>
-        <h3>Contrainte n°1</h3>
-        <input type="number" placeholder="variable x" id="valuePremierMembreX_contrainte1">x +
-        <input type="number" placeholder="variable y" id="valuePremierMembreY_contrainte1">y +
-        <input type="number" placeholder="variable z" id="valuePremierMembreZ_contrainte1">z =
-        <input type="number" placeholder="SecondMembre" id="valueSecondMembre_contrainte1">
+            <div class="card-body">
+                <h3>Contrainte n°2</h3>
+                <input type="number" placeholder="Entrer un nombre (x)" id="valuePremierMembreX_contrainte2" class="form-control">
+                <input type="number" placeholder="Entrer un nombre (y)" id="valuePremierMembreY_contrainte2" class="form-control">
+                <input type="number" placeholder="Entrer un nombre (z)" id="valuePremierMembreZ_contrainte2" class="form-control">
+                <input type="number" placeholder="Entrer un nombre" id="valueSecondMembre_contrainte2" class="form-control">
+            </div>
+
+            <div class="card-body">
+                <h3>Contrainte n°3</h3>
+                <input type="number" placeholder="Entrer un nombre (x)" id="valuePremierMembreX_contrainte3" class="form-control">
+                <input type="number" placeholder="Entrer un nombre (y)" id="valuePremierMembreY_contrainte3" class="form-control">
+                <input type="number" placeholder="Entrer un nombre (z)" id="valuePremierMembreZ_contrainte3" class="form-control">
+                <input type="number" placeholder="Entrer un nombre" id="valueSecondMembre_contrainte3" class="form-control">
+            </div>
+                <br />
+                <button id="validerContrainte" class="btn btn-outline-primary">Valider</button>
+            </div>
+        </div>
     </div>
-
-    <div>
-        <h3>Contrainte n°2</h3>
-        <input type="number" placeholder="variable x" id="valuePremierMembreX_contrainte2">x +
-        <input type="number" placeholder="variable y" id="valuePremierMembreY_contrainte2">y +
-        <input type="number" placeholder="variable z" id="valuePremierMembreZ_contrainte2">z =
-        <input type="number" placeholder="SecondMembre" id="valueSecondMembre_contrainte2">
-    </div>
-
-    <div>
-        <h3>Contrainte n°3</h3>
-        <input type="number" placeholder="variable x" id="valuePremierMembreX_contrainte3">x +
-        <input type="number" placeholder="variable y" id="valuePremierMembreY_contrainte3">y +
-        <input type="number" placeholder="variable z" id="valuePremierMembreZ_contrainte3">z =
-        <input type="number" placeholder="SecondMembre" id="valueSecondMembre_contrainte3">
-    </div>
-    <button id="validerContrainte">Valider</button>
-
-    <script src="script.js"></script>
-    <script src="main.js"></script>
+    <script src="js/programmeLineaire.js"></script>
 </body>
 </html>
