@@ -8,15 +8,9 @@
 </head>
 <body>
     <h1>Programmation Linéaire</h1>
-    <p>Quels sont les 3 contraintes ?</p>
-    <ul>
-        <li>Contrainte 1</li>
-        <li>Contrainte 2</li>
-        <li>Contrainte 3</li>
-    </ul>
 
     <h2>Fonctionnement du programme</h2>
-    <p>Le premier membre correspond à x, y, et z, le second membre correspond au résultat.</p>
+    <p>Le premier membre correspond à x, y, et z, le second membre correspond au résultat, il faut remplir les 3 contraintes.</p>
     <div>
         <h3>Contrainte n°1</h3>
         <input type="number" placeholder="variable x" id="valuePremierMembreX_contrainte1">x +
@@ -27,32 +21,20 @@
 
     <div>
         <h3>Contrainte n°2</h3>
-        <input type="number" placeholder="variable x" id="valuePremierMembreX_contrainte2">
-        <input type="number" placeholder="variable y" id="valuePremierMembreY_contrainte2">
-        <input type="number" placeholder="variable z" id="valuePremierMembreZ_contrainte2">
+        <input type="number" placeholder="variable x" id="valuePremierMembreX_contrainte2">x +
+        <input type="number" placeholder="variable y" id="valuePremierMembreY_contrainte2">y +
+        <input type="number" placeholder="variable z" id="valuePremierMembreZ_contrainte2">z =
         <input type="number" placeholder="SecondMembre" id="valueSecondMembre_contrainte2">
     </div>
 
     <div>
         <h3>Contrainte n°3</h3>
-        <input type="number" placeholder="variable x" id="valuePremierMembreX_contrainte3">
-        <input type="number" placeholder="variable y" id="valuePremierMembreY_contrainte3">
-        <input type="number" placeholder="variable z" id="valuePremierMembreZ_contrainte3">
+        <input type="number" placeholder="variable x" id="valuePremierMembreX_contrainte3">x +
+        <input type="number" placeholder="variable y" id="valuePremierMembreY_contrainte3">y +
+        <input type="number" placeholder="variable z" id="valuePremierMembreZ_contrainte3">z =
         <input type="number" placeholder="SecondMembre" id="valueSecondMembre_contrainte3">
     </div>
     <button id="validerContrainte">Valider</button>
-
-
-    <p>Que vaut Z?</p>
-
-    <p>Le programme a terminé son travail, la variable entrante (Z max) est ...</p>
-    <!--
-        Pour la variable sortante, besoin de ce qui se trouve après le = dans les contraintes et du min Z
-        MinZ / ce qui se trouve après le = ou inversement faut vérifier
-        Le min Z est la variable la plus petite dans l'équation de Z mais pas négatif
-        Le max Z est la variable la plus grande dans l'équation de Z mais pas de négatif également
-    -->
-    <p>Maintenant qu'on a la variable entrante, le programme va vérifier qu'elle est la variable sortante et par déduction, qu'elle est la variable hors base (la dernière)</p>
 
     <script src="script.js"></script>
     <script src="main.js"></script>
